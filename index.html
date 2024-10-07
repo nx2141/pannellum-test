@@ -17,18 +17,18 @@
     <!-- サムネイル部分 -->
     <ul class="panorama-navs">
       <li>
-        <a data-item-url="360vr-1.jpg"
-          ><img src="360vr-1-300x300.jpg" alt=""
+        <a data-item-url="./public/360vr-1.jpg"
+          ><img src="./public/360vr-1-300x300.jpg" alt=""
         /></a>
       </li>
       <li>
-        <a data-item-url="360vr-2.jpg"
-          ><img src="360vr-2-300x300.jpg" alt=""
+        <a data-item-url="./public/360vr-2.jpg"
+          ><img src="./public/360vr-2-300x300.jpg" alt=""
         /></a>
       </li>
       <li>
-        <a data-item-url="360vr-3.jpg"
-          ><img src="360vr-3-300x300.jpg" alt=""
+        <a data-item-url="./public/360vr-3.jpg"
+          ><img src="./public/360vr-3-300x300.jpg" alt=""
         /></a>
       </li>
     </ul>
@@ -44,7 +44,7 @@
       $(document).ready(function () {
         pannellum.viewer("panorama", {
           type: "equirectangular",
-          panorama: "360vr-1.jpg", // 最初に表示する画像
+          panorama: "./public/360vr-1.jpg", // 最初に表示する画像
           autoLoad: true,
         });
 
