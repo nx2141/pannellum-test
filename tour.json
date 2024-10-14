@@ -1,0 +1,38 @@
+﻿{
+  "default": {
+    "autoLoad": true,
+    "author": "Goweb",
+    "firstScene": "high",
+    "sceneFadeDuration": 2000
+  },
+
+  "scenes": {
+    "low": {
+      "title": "Sample VR",
+      "panorama": "./low.jpg",
+      "hotSpots": [
+        {
+          "pitch": 15,
+          "yaw": 180,
+          "type": "scene",
+          "text": "高い視点",
+          "sceneId": "high"
+        }
+      ]
+    },
+
+    "high": {
+      "title": "Sample VR",
+      "panorama": "./high.jpg",
+      "hotSpots": [
+        {
+          "pitch": -10,
+          "yaw": 0,
+          "type": "scene",
+          "text": "低い視点",
+          "sceneId": "low"
+        }
+      ]
+    }
+  }
+}
